@@ -9,7 +9,7 @@ const Welcome = (props) => {
             <Hello />
             <h2>welcome to {props.name} website</h2>
         </div>
-    )
+    );
 }
 
 export default Welcome;
