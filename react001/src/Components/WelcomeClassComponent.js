@@ -1,12 +1,16 @@
-/*
 import React,{Component} from "react";
-
-class firstPage extends Component
+class FirstPage extends Component
 {
-    React.render() return {
-        <div>
-            <h>Welcome to first page</h>
-
-        </div>
+    render() {
+        return(
+            <div>
+                <h1>Hello there ....This is a {this.props.name}...</h1>
+                <p>
+                    {this.props.children}
+                </p>
+            </div>
+        );
+    }
 }
-}*/
+
+export default FirstPage;
