@@ -1,8 +1,8 @@
 import './App.css';
-import './Components/Hello'
+import './Components/Hello';
 import './Components/welcome';
-import './Components/Hello'
-import './Components/secondPage'
+import './Components/Hello';
+import './Components/secondPage';
 import Steve from "./Components/secondPage";
 import Welcome from "./Components/welcome";
 import FirstPage from "./Components/WelcomeClassComponent";
