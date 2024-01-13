@@ -1,13 +1,10 @@
-import './StateObjects/ClassEventBinding';
-import './StateObjects/ClassEvent';
-import ClassEventBinding from "./StateObjects/ClassEventBinding";
-import ClassEvent from "./StateObjects/ClassEvent";
-
+import './App.css';
+import './StateObjects/FunctionalState';
+import FunctionalState from "./StateObjects/FunctionalState";
 function App() {
   return (
     <div className="App">
-       <ClassEventBinding />
-        <ClassEvent />
+       <FunctionalState />
     </div>
   );
 }
