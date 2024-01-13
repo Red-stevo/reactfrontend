@@ -1,10 +1,10 @@
 import './App.css';
-import './StateObjects/FunctionalState';
-import FunctionalState from "./StateObjects/FunctionalState";
+import './StateObjects/LoginForm';
+import LoginForm from "./StateObjects/LoginForm";
 function App() {
   return (
     <div className="App">
-       <FunctionalState />
+       <LoginForm />
     </div>
   );
 }
