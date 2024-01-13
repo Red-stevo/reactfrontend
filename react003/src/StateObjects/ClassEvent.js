@@ -3,7 +3,7 @@ import {Component} from "react";
 
 class ClassEvent extends Component
 {
-    handle()
+    handle = () =>
     {
         console.log("You clicked the class Component even Handler.")
     }

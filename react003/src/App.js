@@ -1,17 +1,12 @@
-import './App.css';
-import './StateObjects/Message'
-import './StateObjects/Count'
-import './StateObjects/Destructuring'
-import './StateObjects/ClassPropsDestructuring'
-import './StateObjects/FunctionalEvent'
-import './StateObjects/ClassEvent'
-import FunctionalEvent from "./StateObjects/FunctionalEvent";
+import './StateObjects/ClassEventBinding';
+import './StateObjects/ClassEvent';
+import ClassEventBinding from "./StateObjects/ClassEventBinding";
 import ClassEvent from "./StateObjects/ClassEvent";
 
 function App() {
   return (
     <div className="App">
-        <FunctionalEvent />
+       <ClassEventBinding />
         <ClassEvent />
     </div>
   );
