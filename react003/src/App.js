@@ -1,10 +1,10 @@
 import './App.css';
-import './StateObjects/LoginForm';
-import LoginForm from "./StateObjects/LoginForm";
+import './StateObjects/ConditionalRendering';
+import ConditionalRendering from "./StateObjects/ConditionalRendering";
 function App() {
   return (
     <div className="App">
-       <LoginForm />
+        <ConditionalRendering />
     </div>
   );
 }
