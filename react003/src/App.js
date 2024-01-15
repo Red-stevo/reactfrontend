@@ -1,11 +1,10 @@
-import ClassMultipleInput from "./StateObjects/ClassMultipleInput";
-
-
+import LoginPage from "./Login_Application/Components/LoginPage";
+import './App.css'
 function App() {
 
   return (
     <div className="App">
-        <ClassMultipleInput></ClassMultipleInput>
+        <LoginPage></LoginPage>
     </div>
   );
 }

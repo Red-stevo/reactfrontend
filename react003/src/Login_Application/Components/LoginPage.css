@@ -1,0 +1,32 @@
+.loginPage {
+    text-align: center;
+    background-image: url("./../images/login.jpg");
+    position: fixed;
+    height: 100%;
+    width: 100%;
+}
+
+.username,.password{
+    text-align: left;
+    color: darkorange;
+    font-size: 16px;
+    padding: 20px;
+}
+
+.loginForm{
+    position: fixed;
+    top: 40%;
+}
+
+.input{
+    padding: 5px;
+    margin: 5px;
+    border: darkblue;
+    border-radius: 10px;
+}
+
+.login
+{
+    font-size: 30px;
+    color: darkorange;
+}
