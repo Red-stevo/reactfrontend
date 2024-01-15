@@ -1,10 +1,11 @@
-import './App.css';
-import RenderingLists from "./StateObjects/RenderingLists";
+//import './App.css';
+import ListRender from "./StateObjects/ListRender";
 
 function App() {
+
   return (
     <div className="App">
-        <RenderingLists />
+        <ListRender></ListRender>
     </div>
   );
 }
