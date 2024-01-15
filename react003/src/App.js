@@ -1,10 +1,10 @@
 import './App.css';
-import './StateObjects/ConditionalRendering';
-import ConditionalRendering from "./StateObjects/ConditionalRendering";
+import RenderingLists from "./StateObjects/RenderingLists";
+
 function App() {
   return (
     <div className="App">
-        <ConditionalRendering />
+        <RenderingLists />
     </div>
   );
 }
