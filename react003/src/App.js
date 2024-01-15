@@ -1,12 +1,10 @@
-import './App.css';
-import FunctionalListRendering from "./StateObjects/FunctionalListRendering";
-
+import ClassFormHandling from "./StateObjects/ClassFormHandling";
 
 function App() {
 
   return (
     <div className="App">
-        <FunctionalListRendering></FunctionalListRendering>
+      <ClassFormHandling></ClassFormHandling>
     </div>
   );
 }
