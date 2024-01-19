@@ -1,5 +1,6 @@
 import styles from './../style.module.css';
 import {useState} from "react";
+import React from "react";
 
 const TodoTask = ({task}) =>
 {
@@ -12,10 +13,7 @@ const TodoTask = ({task}) =>
 
 
   return(
-      <div>
-          <div className={styles.taskBody}>
-             <table>
-                 <tbody>
+          <React.Fragment className={styles.taskBody}>
                  <tr>
                         <td className={styles.cell}>
                             <h2 className={styles.task}>{task}</h2>
@@ -24,10 +22,7 @@ const TodoTask = ({task}) =>
                             <button onClick={handleStatus} className={styles.done}>{status}</button>
                         </td>
                     </tr>
-                 </tbody>
-             </table>
-          </div>
-      </div>
+          </React.Fragment>
   );
 }
 export default TodoTask;

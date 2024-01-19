@@ -1,16 +1,27 @@
 import TodoTask from "./TodoTask";
-
-
+import styles from './../style.module.css';
+import React from "react";
 const TaskList = ({todoList}) =>
 {
     return(
-        <div>
+        <React.Fragment>
             {
-                todoList.map((task,index) =>(
+                <table>
+                    <thead>
+                        <tr>
+                            <td className={styles.cell}>Task</td>
+                            <td className={styles.cell}>Status</td>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    {todoList.map((task,index) =>(
                     <TodoTask key={index} task={task} ></TodoTask>
-                ))
+                    ))}
+                    </tbody>
+                </table>
+
             }
-        </div>
+        </React.Fragment>
     );
 }
 
