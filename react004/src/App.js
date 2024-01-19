@@ -2,6 +2,7 @@ import './App.css'
 import TodoHeader from "./TodoApp/TodoHeader";
 import TasksInput from "./TodoApp/TasksInput";
 import {useState} from "react";
+import TaskList from "./TodoApp/TaskList";
 function App() {
 const [task, setTask] = useState("");
 const [taskList, setTaskList] = useState([]);
@@ -15,6 +16,7 @@ const [taskList, setTaskList] = useState([]);
                     taskList={taskList}
                     setTaskList={setTaskList}
         ></TasksInput>
+        <TaskList todoList={taskList}></TaskList>
     </div>
   );
 }

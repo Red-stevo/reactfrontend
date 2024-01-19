@@ -27,3 +27,25 @@
     width: 50%;
     left: 20%;
 }
+
+.taskBody{
+    margin: 10px;
+    padding: 10px;
+}
+
+.task{
+    font-size: 20px;
+
+}
+
+.done{
+    height: 45px;
+    font-size: 1.5em;
+    background-color: forestgreen;
+    color: white;
+}
+.cell{
+    width: 250px;
+    text-align: center;
+    background-color: purple;
+}
