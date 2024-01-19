@@ -41,11 +41,11 @@
 .done{
     height: 45px;
     font-size: 1.5em;
-    background-color: blueviolet;
+    background-color: forestgreen;
     color: white;
 }
 .cell{
     width: 250px;
     text-align: center;
-    background-color: gray;
+    background-color: purple;
 }

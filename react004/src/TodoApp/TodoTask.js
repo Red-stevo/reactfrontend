@@ -3,7 +3,7 @@ import {useState} from "react";
 
 const TodoTask = ({task}) =>
 {
-    const [status, setStatus] = useState("Pending");
+    const [status, setStatus] = useState("Mark As Done");
 
     const handleStatus = () =>
     {
